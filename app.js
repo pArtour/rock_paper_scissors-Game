@@ -28,8 +28,8 @@ function convertWord(letter) {
 // Функуиция победы
 function win(userChoice,computerChoice) {
 	const smallUserWord = "user".fontsize(3).sub(),
-		  smallCompWord = "comp".fontsize(3).sub(),
-		  userChoice_div = document.getElementById(userChoice);
+		  	smallCompWord = "comp".fontsize(3).sub(),
+		  	userChoice_div = document.getElementById(userChoice);
 	userScore++;
 	userScore_span.innerHTML = userScore;
 	compScore_span.innerHTML = compScore;
@@ -41,8 +41,8 @@ function win(userChoice,computerChoice) {
 // Функция поражения
 function lose(userChoice,computerChoice) {
 	const smallUserWord = "user".fontsize(3).sub(),
-		  smallCompWord = "comp".fontsize(3).sub(),
-		  userChoice_div = document.getElementById(userChoice);
+		  	smallCompWord = "comp".fontsize(3).sub(),
+		  	userChoice_div = document.getElementById(userChoice);
 	compScore++;
 	userScore_span.innerHTML = userScore;
 	compScore_span.innerHTML = compScore;
